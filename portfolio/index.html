@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PortFolio</title>
+
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+
+  
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">My<span> Profile</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">AMAN KUMAR SETH</div>
+        <div class="text-3">I <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="/images/image-profile.jpeg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Aman Kumar Seth and I <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            I am Aman Kumar Seth currently pursuing B.Tech. in CSE from NIT Patna.
+            My interests lie in Web Development(Frontend & Backend),Software Development and Coding.
+            I am a self motivated and disciplined soul, who is always keen to up skill myself by learning new things.          </p>
+          <a href="https://drive.google.com/file/d/1OsqSON_Km3ItAWV8DqIk_DRPx9etCH7r/view?usp=sharing" target="_blank">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="project" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Projects</h2>
+      <div class="proj-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text"> Job Listing with Filters</div>
+            <p>
+              Made Job listing landing page with filter using HTML CSS and JavaScript which require 
+              to make the web page interactive and responsive as possible and further made more 
+              use of all DOM manipulation technology.
+              <div ><a style="color: rgb(244, 237, 202);" href="https://amanseth10.github.io/job_listing/job-listing%20with%20filters.html">CLICK..</a></div>
+
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text"> DNA Synthesis</div>
+            <p>
+              Researched and implemented TFBS localization using convolution networks.
+              Utilized Python and Machine Learning techniques.
+              Currently contributing to a research paper on this project.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">Portfolio</div>
+            <p>
+              Designed attractive and responsive portfolio website with the help of HTML, CSS, JavaScript, jQUERY and BootStrap
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+            My skill set includes the skills as mentioned in the right side of the page. Along with this I possess Soft Skills which include Communication, Leadership and Collaboration Skills.          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">HTML</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">CSS</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">JavaScript</span>
+          </div>
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">DBMS</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">C/C++</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">MySQL</span>
+          </div>
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">Computer Networks</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">OOPs</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">Software Engineering</span>
+          </div>
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">DSA</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">Machine Learning Basic</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">Linux</span>
+          </div>
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">Git and GitHub</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">VS Code</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">Python</span>
+          </div>
+          <div class="icons">
+            <span alt="css" id="css-icon" data-aos="flip-left">Operating System</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">jQUERY</span>
+            <span alt="css" id="css-icon" data-aos="flip-left">BootStrap</span>
+          </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Aman Kumar Seth</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Kabir Bag, Tekari Road, Gaya, Bihar, 823001</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">amanseth2626@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">Aman Kumar Seth</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="https://www.linkedin.com/in/aman-kumar-seth-8992a2218/">LinkedIn</a>
+          <a href="https://github.com/amanseth10">Github</a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
