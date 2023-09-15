@@ -21,7 +21,7 @@ $(document).ready(function () {
         loop: true,
         
     });
-    var typed = new Typed(".typing-2",{
+    var typed1 = new Typed(".typing-2",{
         strings: ["am a FrontEnd Developer","love Coding","am a Learner","love Web Designing"],
         typeSpeed: 100,
         backSpeed: 60,
